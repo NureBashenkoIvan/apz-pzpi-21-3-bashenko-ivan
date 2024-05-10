@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E6D29E-6B3E-4916-8864-0AC7660BF413}|OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj|c:\\users\\vanya\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0430\u043F\u0437\\om-nom-box\\omnombox.api\\omnombox.api.presentation\\controllers\\backupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E6D29E-6B3E-4916-8864-0AC7660BF413}|OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj|solutionrelative:omnombox.api.presentation\\controllers\\backupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E6D29E-6B3E-4916-8864-0AC7660BF413}|OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj|c:\\users\\vanya\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0430\u043F\u0437\\om-nom-box\\omnombox.api\\omnombox.api.presentation\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E6D29E-6B3E-4916-8864-0AC7660BF413}|OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj|solutionrelative:omnombox.api.presentation\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E6D29E-6B3E-4916-8864-0AC7660BF413}|OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj|c:\\users\\vanya\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0430\u043F\u0437\\om-nom-box\\omnombox.api\\omnombox.api.presentation\\controllers\\machinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E6D29E-6B3E-4916-8864-0AC7660BF413}|OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj|solutionrelative:omnombox.api.presentation\\controllers\\machinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E6D29E-6B3E-4916-8864-0AC7660BF413}|OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj|c:\\users\\vanya\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0430\u043F\u0437\\om-nom-box\\omnombox.api\\omnombox.api.presentation\\controllers\\machinesettingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E6D29E-6B3E-4916-8864-0AC7660BF413}|OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj|solutionrelative:omnombox.api.presentation\\controllers\\machinesettingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E6D29E-6B3E-4916-8864-0AC7660BF413}|OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj|c:\\users\\vanya\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0430\u043F\u0437\\om-nom-box\\omnombox.api\\omnombox.api.presentation\\controllers\\machinestatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E6D29E-6B3E-4916-8864-0AC7660BF413}|OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj|solutionrelative:omnombox.api.presentation\\controllers\\machinestatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E6D29E-6B3E-4916-8864-0AC7660BF413}|OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj|c:\\users\\vanya\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0430\u043F\u0437\\om-nom-box\\omnombox.api\\omnombox.api.presentation\\controllers\\machinetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E6D29E-6B3E-4916-8864-0AC7660BF413}|OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj|solutionrelative:omnombox.api.presentation\\controllers\\machinetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E6D29E-6B3E-4916-8864-0AC7660BF413}|OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj|c:\\users\\vanya\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0430\u043F\u0437\\om-nom-box\\omnombox.api\\omnombox.api.presentation\\controllers\\manufacturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E6D29E-6B3E-4916-8864-0AC7660BF413}|OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj|solutionrelative:omnombox.api.presentation\\controllers\\manufacturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E6D29E-6B3E-4916-8864-0AC7660BF413}|OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj|c:\\users\\vanya\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0430\u043F\u0437\\om-nom-box\\omnombox.api\\omnombox.api.presentation\\controllers\\mealcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E6D29E-6B3E-4916-8864-0AC7660BF413}|OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj|solutionrelative:omnombox.api.presentation\\controllers\\mealcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E6D29E-6B3E-4916-8864-0AC7660BF413}|OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj|c:\\users\\vanya\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0430\u043F\u0437\\om-nom-box\\omnombox.api\\omnombox.api.presentation\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E6D29E-6B3E-4916-8864-0AC7660BF413}|OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj|solutionrelative:omnombox.api.presentation\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D0CA43-8F2F-4CD7-8456-046A1B113326}|Service\\Service.csproj|c:\\users\\vanya\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0430\u043F\u0437\\om-nom-box\\omnombox.api\\service\\machinesettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D0CA43-8F2F-4CD7-8456-046A1B113326}|Service\\Service.csproj|solutionrelative:service\\machinesettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D0CA43-8F2F-4CD7-8456-046A1B113326}|Service\\Service.csproj|c:\\users\\vanya\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0430\u043F\u0437\\om-nom-box\\omnombox.api\\service\\machineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D0CA43-8F2F-4CD7-8456-046A1B113326}|Service\\Service.csproj|solutionrelative:service\\machineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7958E091-CCE5-4B20-90E9-FED8BC15EB89}|Service.Contracts\\Service.Contracts.csproj|c:\\users\\vanya\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0430\u043F\u0437\\om-nom-box\\omnombox.api\\service.contracts\\imachinesettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7958E091-CCE5-4B20-90E9-FED8BC15EB89}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\imachinesettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BackupController.cs",
+              "DocumentMoniker": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\Controllers\\BackupController.cs",
+              "RelativeDocumentMoniker": "OmNomBox.API.Presentation\\Controllers\\BackupController.cs",
+              "ToolTip": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\Controllers\\BackupController.cs*",
+              "RelativeToolTip": "OmNomBox.API.Presentation\\Controllers\\BackupController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T23:00:45.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "OmNomBox.API.Presentation\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\Controllers\\OrderController.cs*",
+              "RelativeToolTip": "OmNomBox.API.Presentation\\Controllers\\OrderController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T22:59:08.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MealController.cs",
+              "DocumentMoniker": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\Controllers\\MealController.cs",
+              "RelativeDocumentMoniker": "OmNomBox.API.Presentation\\Controllers\\MealController.cs",
+              "ToolTip": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\Controllers\\MealController.cs*",
+              "RelativeToolTip": "OmNomBox.API.Presentation\\Controllers\\MealController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T22:59:06.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManufacturerController.cs",
+              "DocumentMoniker": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\Controllers\\ManufacturerController.cs",
+              "RelativeDocumentMoniker": "OmNomBox.API.Presentation\\Controllers\\ManufacturerController.cs",
+              "ToolTip": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\Controllers\\ManufacturerController.cs*",
+              "RelativeToolTip": "OmNomBox.API.Presentation\\Controllers\\ManufacturerController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T22:59:03.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MachineTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\Controllers\\MachineTypeController.cs",
+              "RelativeDocumentMoniker": "OmNomBox.API.Presentation\\Controllers\\MachineTypeController.cs",
+              "ToolTip": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\Controllers\\MachineTypeController.cs*",
+              "RelativeToolTip": "OmNomBox.API.Presentation\\Controllers\\MachineTypeController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T22:58:25.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MachineStatusController.cs",
+              "DocumentMoniker": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\Controllers\\MachineStatusController.cs",
+              "RelativeDocumentMoniker": "OmNomBox.API.Presentation\\Controllers\\MachineStatusController.cs",
+              "ToolTip": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\Controllers\\MachineStatusController.cs*",
+              "RelativeToolTip": "OmNomBox.API.Presentation\\Controllers\\MachineStatusController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T22:58:23.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MachineController.cs",
+              "DocumentMoniker": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\Controllers\\MachineController.cs",
+              "RelativeDocumentMoniker": "OmNomBox.API.Presentation\\Controllers\\MachineController.cs",
+              "ToolTip": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\Controllers\\MachineController.cs*",
+              "RelativeToolTip": "OmNomBox.API.Presentation\\Controllers\\MachineController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T22:58:18.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompanyController.cs",
+              "DocumentMoniker": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\Controllers\\CompanyController.cs",
+              "RelativeDocumentMoniker": "OmNomBox.API.Presentation\\Controllers\\CompanyController.cs",
+              "ToolTip": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\Controllers\\CompanyController.cs*",
+              "RelativeToolTip": "OmNomBox.API.Presentation\\Controllers\\CompanyController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T22:58:15.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IMachineSettingsService.cs",
+              "DocumentMoniker": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\Service.Contracts\\IMachineSettingsService.cs",
+              "RelativeDocumentMoniker": "Service.Contracts\\IMachineSettingsService.cs",
+              "ToolTip": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\Service.Contracts\\IMachineSettingsService.cs",
+              "RelativeToolTip": "Service.Contracts\\IMachineSettingsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAACzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T22:24:54.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MachineService.cs",
+              "DocumentMoniker": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\Service\\MachineService.cs",
+              "RelativeDocumentMoniker": "Service\\MachineService.cs",
+              "ToolTip": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\Service\\MachineService.cs",
+              "RelativeToolTip": "Service\\MachineService.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T22:23:12.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MachineSettingsService.cs",
+              "DocumentMoniker": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\Service\\MachineSettingsService.cs",
+              "RelativeDocumentMoniker": "Service\\MachineSettingsService.cs",
+              "ToolTip": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\Service\\MachineSettingsService.cs",
+              "RelativeToolTip": "Service\\MachineSettingsService.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAqwFwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T20:31:19.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MachineSettingsController.cs",
+              "DocumentMoniker": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\Controllers\\MachineSettingsController.cs",
+              "RelativeDocumentMoniker": "OmNomBox.API.Presentation\\Controllers\\MachineSettingsController.cs",
+              "ToolTip": "C:\\Users\\vanya\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\uni learning\\\u0410\u041F\u0417\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\Controllers\\MachineSettingsController.cs",
+              "RelativeToolTip": "OmNomBox.API.Presentation\\Controllers\\MachineSettingsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T20:45:04.402Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
