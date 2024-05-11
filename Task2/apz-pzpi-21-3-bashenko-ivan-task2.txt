@@ -1,0 +1,297 @@
+1 ОПИС АРХІТЕКТУРИ СИСТЕМИ
+
+Проект розроблено на мові програмування C#, яка входить до складу платформи .NET, з використанням фреймворку ASP.NET Core Web API 8. Для зберігання даних використовується Microsoft SQL Server, а для взаємодії з базою даних - Entity Framework Core 8.0. Для автентифікації та авторизації використовується ASP.NET Core Identity, а також ASP.NET Core Authentication. Серверна частина програмної системи має багаторівневу Onion-архітектуру з окремими проектами, які були створені в середовищі розробки, які включають рівні представлення, репозиторія, доступ до даних, сервіси, контракти тощо.
+Будова архітектури проекту наступна:
+1. OmNomBox.API – це початкова точка входу в проект, яка містить в собі конфігурацію, реєстрацію всіх сервісів за допомогою Dependency Injection та відповідає за налаштування профілю маппінгу для всього застосунку.
+2. Entities – проект, який відповідає за доменний рівень та містить в собі моделі, тобто сутності. Також він має моделі помилок.
+3. Contracts та Repository – це сервісні проекти, які реалізовують патерн Repository та допомагають працювати напряму з провайдером бази даних.
+4. Service.Contracts та Service – це проєкти, які відповідають за шар сервісу, який виконує безпосередньо бізнес-логіку та взаємодіє з репозиторієм.
+5. LoggerService, Shared та OmNomBox.API.Presentation – проекти, які відповідають за інфраструктурну частину, а також частину презентації. Наприклад, Shared містить в собі DataTransferObjects, LoggerService відповідає за логування дій, а OmNomBox.API.Presentation має контролери.
+
+2 ПОБУДОВА ДІАГРАМИ РОЗГОРТАННЯ
+Діаграма складається із 5 елементів: серверу на ASP.NET Core Web API, бази даних на MSSQL, веб-застосунку на Angular 16, мобільного застосунку на Kotlin та робота на ESP32.
+
+3 ОПИС АРХІТЕКТУРИ СЕРВЕРНОЇ ЧАСТИНИ
+
+3.1 Аутентифікація
+Аутентифікація відбувається за допомогою JWT-токенів та бібліотеки ASP.NET Core Identity. Повний код наведений в додатку А.
+Щоб увійти у систему користувач повинен надіслати адресу своєї електронної пошти та пароль. Після цього вони валідуються на сервері із використанням методів ASP.NET Core Identity та формується JWT-токен. 
+Створюється токен за допомогою метода GenerateTokenOptions(), код якого наступний:
+1 var jwtSettings = _configuration.GetSection("JwtSettings");
+2  var tokenOptions = new JwtSecurityToken
+3  (issuer: jwtSettings["validIssuer"],
+4    audience: jwtSettings["validAudience"],
+5    claims: claims,
+6 expires:DateTime.Now.AddMinutes(Convert.ToDouble(jwtSettings["expires"])),
+7     signingCredentials: signingCredentials);
+10  return tokenOptions;
+3.2 Обробник помилок
+Також можемо продемонструвати налаштування обробника винятків у програмі, який використовує мідлвару для обробки помилок веб-запитів:
+1 public static void ConfigureExceptionHandler(this WebApplication app, ILoggerManager logger)
+2 {
+3     app.UseExceptionHandler(appError =>
+4     {
+5         appError.Run(async context =>
+6         {
+7             context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
+8             context.Response.ContentType = "application/json";
+9             var contextFeature = context.Features.Get<IExceptionHandlerFeature>();
+10             if (contextFeature != null)
+11             {
+12                 context.Response.StatusCode = contextFeature.Error switch
+13                 {
+14                     NotFoundException => StatusCodes.Status404NotFound,
+15                     _ => StatusCodes.Status500InternalServerError
+16                 };
+17                 logger.LogError($"Something went wrong: {contextFeature.Error}");
+18                 await context.Response.WriteAsync(new ErrorDetails()
+19                 {
+20                     StatusCode = context.Response.StatusCode,
+21                     Message = contextFeature.Error.Message,
+22                 }.ToString());
+23             }
+24         });
+25     });
+26 }
+Цей метод перехоплює будь-які винятки, що виникають під час обробки запитів, і встановлює відповідний HTTP-статус відповіді залежно від типу помилки. Якщо виникає помилка типу "NotFoundException", встановлюється статус 404 (не знайдено), у протилежному випадку - статус 500 (внутрішня помилка сервера). Крім того, він логує деталі помилки та повертає інформацію про помилку у форматі JSON.
+3.3 Використання Dependency Injection
+Також в проекті використовується Dependency Injection, який полягає в тому, щоб класи отримували залежності зовні, замість того, щоб самостійно їх створювати. Це допомагає вирішувати проблему залежностей між класами, полегшує їхнє тестування та робить код більш гнучким. Повний код продемонстрований в додатку А. Фрагмент коду наступний:
+1  public static void ConfigureLoggerSerivce(this IServiceCollection services)
+2 => services.AddSingleton<ILoggerManager, LoggerManager>();
+3.4 Використання Validation Filter
+Поміж іншого, в проекті також використовується Validation Filter. Validation filter - це фільтр, який використовується у веб-застосунках для перевірки та валідації вхідних даних. Він дозволяє встановлювати правила для перевірки коректності даних, переданих у запиті, і забезпечує можливість відповіді з помилкою в разі невідповідності цим правилам. Це може бути використано для перевірки формату даних, обов'язкових полів, а також для власних правил валідації. Використання валідаційних фільтрів сприяє підтримці консистентності даних системи та забезпечує більш безпечну обробку запитів у проекті. Код наступний:
+1 using Microsoft.AspNetCore.Mvc;
+2 using Microsoft.AspNetCore.Mvc.Filters;
+3 namespace Lumotech.Presentation.ActionFilters
+4 {
+5     public class ValidationFilterAttribute : IActionFilter
+6     {
+7         public ValidationFilterAttribute()
+8         {
+9         }
+10         public void OnActionExecuting(ActionExecutingContext context)
+11         {
+12             var action = context.RouteData.Values["action"];
+13             var controller = context.RouteData.Values["controller"]; 
+14             var param = context.ActionArguments
+15                 .SingleOrDefault(x => x.Value.ToString().Contains("Dto")).Value;
+16             if (param is null)
+17             {
+18                 context.Result = 
+19                     new BadRequestObjectResult($"Object is null. Controller: {controller}, action: {action}");
+20                 return;
+21             }      
+22             if (!context.ModelState.IsValid)
+23                 context.Result = new UnprocessableEntityObjectResult(context.ModelState);
+24         }
+25         public void OnActionExecuted(ActionExecutedContext context)
+26         {
+27         }
+28     }
+29 }
+
+4 ПОБУДОВА ДІАГРАМИ ПРЕЦЕДЕНТІВ
+
+Для розуміння того, як користувачі взаємодіють з системою, була створена діаграма прецедентів (Use Case Diagram) (рис. 3.3). У системі існують два актори: користувач та адміністратор. На діаграмі можна побачити, що управління компаніями, управління блюдами та детальне управління апаратами харчування доступне тільки адміністратору, оскільки користувач має змогу тільки реєструватися, щоб робити замовлення та переглядати їх. Також адміністратор має можливість зробити резервне копіювання бази даних.
+
+5 ПОБУДОВА ER-ДІАГРАМИ
+
+ER-модель складається з 9 сутностей. На ній є наступні зв’язки: 
+– «Users» - «Companies» та «Users» - «Orders» мають зв’язок
+один-до-багатьох;
+– «Machines» - «Orders» та «Orders» - «Meals» мають також зв’язок один-до-багатьох;
+– «Users» - «Companies», «Companies» - «Machines», «Machines» - «MachineStatuses», «Manufacturers» - «Machines» та «MachineTypes» - «Machines» мають зв’язок один-до-багатьох;
+– «Meals» - «MachineSettings» та «MachineTypes» - «MachineSettings» мають зв’язок багато-до-багатьох;
+ER-модель зображена на рисунку 3.1.
+
+6 СПЕЦИФІКАЦІЯ REST
+/api/authentication	POST	Реєстрація нового користувача
+/api/authentication/login	POST	Авторизація користувача
+/api/users/	GET	Отримання адміністратором інформації про всіх користувачів
+/api/users/{key}	DELETE	Видалення користувача адміністратором
+/api/companies/admin	GET	Отримання адміністратором списку всіх компаній 
+/api/companies	GET	Отримання користувачем списку його компаній
+/api/companies/{key}	GET	Отримання інформації про компанію
+/api/companies/
+?pageNumber={key}
+&pageSize={key}	GET	Отримання користувачем списку його компаній за допомогою пагінації
+/api/companies/?searchTerm
+={key}	GET	Отримання користувачем списку його компаній за допомогою пошуку
+/api/companies/?orderBy={key} asc	GET	Отримання користувачем списку його компаній за допомогою сортування
+/api/companies	POST	Створення користувачем його компанії
+/api/companies/{key}	UPDATE	Оновлення даних про компанію користувачем
+/api/companies/{key}	DELETE	Видалення запису про компанію
+/api/companies/{key}/machines/admin	GET	Отримання адміністратором списку апаратів
+/api/companies/{key}/machines	GET	Отримання списку апаратів користувача
+/api/companies/{key}/machines?pageNumber={key}
+&pageSize={key}	GET	Отримання а списку апаратів за допомогою пагінації
+/api/companies/{key}/machines ?orderBy={key} asc	GET	Отримання списку апаратів за допомогою сортування
+/api/companies/{key}/machines/
+{key}	GET	Отримання інформації про апарат
+/api/companies/{key}/machines/
+	POST	Створення адміністратором апарату
+/api/companies/{key}/machines/
+{key}	UPDATE	Оновлення даних про апарат
+/api/companies/{key}/machines/
+{key}	DELETE	Видалення запису про апарат
+/api/orders/admin	GET	Отримання адміністратором списку всіх замовлень
+/api/orders/	GET	Отримання користувачем списку своїх замовлень
+/api/orders/{key}	GET	Отримання інформації про замовлення
+/api/orders/
+?orderBy={key} asc	GET	Отримання користувачем списку замовлень за допомогою сортування
+/api/orders/admin	GET	Отримання адміністратором списку всіх замовлень
+/api/orders	POST	Створення користувачем замовлення
+/api/orders{key}	DELETE	Видалення адміністратором запису про замовлення
+/api/orders{key}	UPDATE	Оновлення запису про замовлення
+/api/manufacturers	GET	Отримання адміністратором списку виробників апаратів
+/api/manufacturers/{key}	GET	Отримання адміністратором інформації про виробника апаратів
+/api/manufacturers/
+?pageNumber={key}
+&pageSize={key}	GET	Отримання адміністратором списку виробників апаратів за допомогою пагінації
+/api/manufacturers	POST	Створення адміністратором виробника апаратів
+/api/manufacturers/{key}	UPDATE	Оновлення даних про виробника апаратів адміністратором
+/api/manufacturers/{key}	DELETE	Видалення запису про виробника апаратів
+/api/backup/create	POST	Створення бекапу бази даних адміністратором
+/api/meals	GET	Отримання адміністратором списку їжі
+/api/meals/{key}	GET	Отримання адміністратором інформації про блюдо
+/api/meals/
+?pageNumber={key}
+&pageSize={key}	GET	Отримання адміністратором списку їжі за допомогою пагінації
+/api/meals	POST	Створення адміністратором блюда
+/api/meals/{key}	UPDATE	Оновлення даних про блюдо
+/api/meals/{key}	DELETE	Видалення запису про блюдо
+/api/machineTypes	GET	Отримання адміністратором списку типів апаратів
+/api/machineTypes/{key}	GET	Отримання адміністратором інформації про тип апарату
+/api/machineTypes/
+?pageNumber={key}
+&pageSize={key}	GET	Отримання адміністратором списку типів апаратів за допомогою пагінації
+/api/machineTypes	POST	Створення адміністратором типу апарату
+/api/machineTypes/{key}	UPDATE	Оновлення даних про тип апарату
+/api/machineTypes/{key}	DELETE	Видалення запису про тип апарату
+/api/machineStatuses	GET	Отримання адміністратором списку статусів апаратів
+/api/machineStatuses/{key}	GET	Отримання адміністратором інформації про статуси апаратів
+/api/machineStatuses/
+?pageNumber={key}
+&pageSize={key}	GET	Отримання адміністратором списку статусів апаратів за допомогою пагінації
+/api/machineStatuses	POST	Створення адміністратором статусу апарату
+/api/machineStatuses/{key}	UPDATE	Оновлення даних про статус апарату
+/api/machineStatuses/{key}	DELETE	Видалення запису про статус апарату
+/api/machineTypes/{key}/
+machineSettings/admin	GET	Отримання адміністратором списку налаштувань апаратів
+/api/machineTypes/{key}/
+machineSettings	GET	Отримання адміністратором інформації про налаштування апарату
+/api/machineTypes/{key}/
+machineSettings
+?pageNumber={key}
+&pageSize={key}	GET	Отримання адміністратором списку налаштувань апаратів за допомогою пагінації
+/api/machineTypes/{key}/
+machineSettings
+	POST	Створення адміністратором налаштування апарату
+/api/machineTypes/{key}/
+machineSettings/{key}
+	UPDATE	Оновлення запису налаштування апарату
+/api/machineTypes/{key}/
+machineSettings/{key}
+	DELETE	Видалення запису налаштування апарату
+/api/machineTypes	GET	Отримання адміністратором списку типів апаратів
+
+ВИСНОВКИ
+
+Під час виконання лабораторної роботи було створено серверну частину програмної системи для створення та керування бізнес-процесами з використанням автоматів швидкого приготування сублімованої їжі. Також описали прийняті інженерні рішення, загальну архітектуру, системи, показали будову її серверних компонентів та структуру бази даних.
+
+ДОДАТОК А
+
+Специфікація REST
+
+/api/authentication	POST	Реєстрація нового користувача
+/api/authentication/login	POST	Авторизація користувача
+/api/users/	GET	Отримання адміністратором інформації про всіх користувачів
+/api/users/{key}	DELETE	Видалення користувача адміністратором
+/api/companies/admin	GET	Отримання адміністратором списку всіх компаній 
+/api/companies	GET	Отримання користувачем списку його компаній
+/api/companies/{key}	GET	Отримання інформації про компанію
+/api/companies/
+?pageNumber={key}
+&pageSize={key}	GET	Отримання користувачем списку його компаній за допомогою пагінації
+/api/companies/?searchTerm
+={key}	GET	Отримання користувачем списку його компаній за допомогою пошуку
+/api/companies/?orderBy={key} asc	GET	Отримання користувачем списку його компаній за допомогою сортування
+/api/companies	POST	Створення користувачем його компанії
+/api/companies/{key}	UPDATE	Оновлення даних про компанію користувачем
+/api/companies/{key}	DELETE	Видалення запису про компанію
+/api/companies/{key}/machines/admin	GET	Отримання адміністратором списку апаратів
+/api/companies/{key}/machines	GET	Отримання списку апаратів користувача
+/api/companies/{key}/machines?pageNumber={key}
+&pageSize={key}	GET	Отримання а списку апаратів за допомогою пагінації
+/api/companies/{key}/machines ?orderBy={key} asc	GET	Отримання списку апаратів за допомогою сортування
+/api/companies/{key}/machines/
+{key}	GET	Отримання інформації про апарат
+/api/companies/{key}/machines/
+	POST	Створення адміністратором апарату
+/api/companies/{key}/machines/
+{key}	UPDATE	Оновлення даних про апарат
+/api/companies/{key}/machines/
+{key}	DELETE	Видалення запису про апарат
+/api/orders/admin	GET	Отримання адміністратором списку всіх замовлень
+/api/orders/	GET	Отримання користувачем списку своїх замовлень
+/api/orders/{key}	GET	Отримання інформації про замовлення
+/api/orders/
+?orderBy={key} asc	GET	Отримання користувачем списку замовлень за допомогою сортування
+/api/orders/admin	GET	Отримання адміністратором списку всіх замовлень
+/api/orders	POST	Створення користувачем замовлення
+/api/orders{key}	DELETE	Видалення адміністратором запису про замовлення
+/api/orders{key}	UPDATE	Оновлення запису про замовлення
+/api/manufacturers	GET	Отримання адміністратором списку виробників апаратів
+/api/manufacturers/{key}	GET	Отримання адміністратором інформації про виробника апаратів
+/api/manufacturers/
+?pageNumber={key}
+&pageSize={key}	GET	Отримання адміністратором списку виробників апаратів за допомогою пагінації
+/api/manufacturers	POST	Створення адміністратором виробника апаратів
+/api/manufacturers/{key}	UPDATE	Оновлення даних про виробника апаратів адміністратором
+/api/manufacturers/{key}	DELETE	Видалення запису про виробника апаратів
+/api/backup/create	POST	Створення бекапу бази даних адміністратором
+/api/meals	GET	Отримання адміністратором списку їжі
+/api/meals/{key}	GET	Отримання адміністратором інформації про блюдо
+/api/meals/
+?pageNumber={key}
+&pageSize={key}	GET	Отримання адміністратором списку їжі за допомогою пагінації
+/api/meals	POST	Створення адміністратором блюда
+/api/meals/{key}	UPDATE	Оновлення даних про блюдо
+/api/meals/{key}	DELETE	Видалення запису про блюдо
+/api/machineTypes	GET	Отримання адміністратором списку типів апаратів
+/api/machineTypes/{key}	GET	Отримання адміністратором інформації про тип апарату
+/api/machineTypes/
+?pageNumber={key}
+&pageSize={key}	GET	Отримання адміністратором списку типів апаратів за допомогою пагінації
+/api/machineTypes	POST	Створення адміністратором типу апарату
+/api/machineTypes/{key}	UPDATE	Оновлення даних про тип апарату
+/api/machineTypes/{key}	DELETE	Видалення запису про тип апарату
+/api/machineStatuses	GET	Отримання адміністратором списку статусів апаратів
+/api/machineStatuses/{key}	GET	Отримання адміністратором інформації про статуси апаратів
+/api/machineStatuses/
+?pageNumber={key}
+&pageSize={key}	GET	Отримання адміністратором списку статусів апаратів за допомогою пагінації
+/api/machineStatuses	POST	Створення адміністратором статусу апарату
+/api/machineStatuses/{key}	UPDATE	Оновлення даних про статус апарату
+/api/machineStatuses/{key}	DELETE	Видалення запису про статус апарату
+/api/machineTypes/{key}/
+machineSettings/admin	GET	Отримання адміністратором списку налаштувань апаратів
+/api/machineTypes/{key}/
+machineSettings	GET	Отримання адміністратором інформації про налаштування апарату
+/api/machineTypes/{key}/
+machineSettings
+?pageNumber={key}
+&pageSize={key}	GET	Отримання адміністратором списку налаштувань апаратів за допомогою пагінації
+/api/machineTypes/{key}/
+machineSettings
+	POST	Створення адміністратором налаштування апарату
+/api/machineTypes/{key}/
+machineSettings/{key}
+	UPDATE	Оновлення запису налаштування апарату
+/api/machineTypes/{key}/
+machineSettings/{key}
+	DELETE	Видалення запису налаштування апарату
+/api/machineTypes	GET	Отримання адміністратором списку типів апаратів
+
+
+
