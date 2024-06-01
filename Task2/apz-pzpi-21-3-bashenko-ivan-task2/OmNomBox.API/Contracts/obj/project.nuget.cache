@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Pwv9cGLwwkArkbpw0yinPj4X+syFyMecOgM3kZHkBXkoLKSlKb1YMtk0lpjJxO50w+8RwtqZmoI5xhp5tMPIvg==",
+  "dgSpecHash": "m8t74YaUzjqNE56f99guKvxC1QbjGV2GaAHrJw+QxcEKNdZAVHTb4Z1RizJG7wpFrgzr3Nte2giWqp8ssktrSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Contracts\\Contracts.csproj",
+  "projectFilePath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Contracts\\Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vanya\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.4\\microsoft.aspnetcore.cryptography.internal.8.0.4.nupkg.sha512",
     "C:\\Users\\vanya\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.4\\microsoft.aspnetcore.cryptography.keyderivation.8.0.4.nupkg.sha512",

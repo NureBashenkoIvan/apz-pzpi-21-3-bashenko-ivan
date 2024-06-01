@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/wD6p/KxuZGvXZqOyzZwdf5ag2lmDZT/YemYA/pfclvfphMkpvUI9QyniJOXbvaAzblysXx12WHwuQIXEj9+6w==",
+  "dgSpecHash": "MyRXdUwt8W1ChspD8Zx/eGTZo2mFT3y91163hbxNM2K1X5grqjw0V5ZQFuRsYL6S1UEEe7IhHeFLu10q3IMj1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Service\\Service.csproj",
+  "projectFilePath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vanya\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\vanya\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

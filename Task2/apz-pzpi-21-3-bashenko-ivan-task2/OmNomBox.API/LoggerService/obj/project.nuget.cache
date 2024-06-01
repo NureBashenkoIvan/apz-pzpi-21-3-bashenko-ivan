@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gxPIGW+UFbMJTUjt8QsHdZTcfoq7sfwgZc7DPgyCtZA7VvhW2IdYzK8YmKptdHE7cqR9c7JDeNQ0roBaYKMJQA==",
+  "dgSpecHash": "D36tYio/xlWzZX7XeZq5Z5FZc6YoRMNn29NHXbPWhRdxuGok4461AEt58rx+RM76AbicXVeyloVhevP71ksTYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\LoggerService\\LoggerService.csproj",
+  "projectFilePath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\LoggerService\\LoggerService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vanya\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.4\\microsoft.aspnetcore.cryptography.internal.8.0.4.nupkg.sha512",
     "C:\\Users\\vanya\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.4\\microsoft.aspnetcore.cryptography.keyderivation.8.0.4.nupkg.sha512",

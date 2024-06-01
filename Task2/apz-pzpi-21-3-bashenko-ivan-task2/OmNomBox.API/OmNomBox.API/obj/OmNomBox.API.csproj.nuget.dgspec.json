@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API\\OmNomBox.API.csproj": {}
+    "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\OmNomBox.API\\OmNomBox.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Contracts\\Contracts.csproj": {
+    "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Contracts\\Contracts.csproj",
+        "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Contracts\\Contracts.csproj",
         "packagesPath": "C:\\Users\\vanya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Contracts\\obj\\",
+        "outputPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vanya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Entities\\Entities.csproj"
+              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Shared\\Shared.csproj"
+              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Shared\\Shared.csproj"
               }
             }
           }
@@ -41,11 +41,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -71,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Entities\\Entities.csproj": {
+    "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\vanya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vanya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -101,11 +96,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -137,14 +127,14 @@
         }
       }
     },
-    "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\LoggerService\\LoggerService.csproj": {
+    "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\LoggerService\\LoggerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\LoggerService\\LoggerService.csproj",
+        "projectUniqueName": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\LoggerService\\LoggerService.csproj",
         "projectName": "LoggerService",
-        "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\LoggerService\\LoggerService.csproj",
+        "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\LoggerService\\LoggerService.csproj",
         "packagesPath": "C:\\Users\\vanya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\LoggerService\\obj\\",
+        "outputPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\LoggerService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vanya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -161,8 +151,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Contracts\\Contracts.csproj"
+              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Contracts\\Contracts.csproj"
               }
             }
           }
@@ -171,11 +161,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -207,14 +192,14 @@
         }
       }
     },
-    "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj": {
+    "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj",
         "projectName": "OmNomBox.API.Presentation",
-        "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj",
+        "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj",
         "packagesPath": "C:\\Users\\vanya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\obj\\",
+        "outputPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\OmNomBox.API.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vanya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -231,8 +216,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Service.Contracts\\Service.Contracts.csproj": {
-                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Service.Contracts\\Service.Contracts.csproj"
+              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Service.Contracts\\Service.Contracts.csproj": {
+                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Service.Contracts\\Service.Contracts.csproj"
               }
             }
           }
@@ -241,11 +226,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -277,14 +257,14 @@
         }
       }
     },
-    "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API\\OmNomBox.API.csproj": {
+    "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\OmNomBox.API\\OmNomBox.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API\\OmNomBox.API.csproj",
+        "projectUniqueName": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\OmNomBox.API\\OmNomBox.API.csproj",
         "projectName": "OmNomBox.API",
-        "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API\\OmNomBox.API.csproj",
+        "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\OmNomBox.API\\OmNomBox.API.csproj",
         "packagesPath": "C:\\Users\\vanya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API\\obj\\",
+        "outputPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\OmNomBox.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vanya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -301,20 +281,20 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\LoggerService\\LoggerService.csproj": {
-                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\LoggerService\\LoggerService.csproj"
+              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\LoggerService\\LoggerService.csproj": {
+                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\LoggerService\\LoggerService.csproj"
               },
-              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj": {
-                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj"
+              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj": {
+                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj"
               },
-              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Repository\\Repository.csproj"
+              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Repository\\Repository.csproj"
               },
-              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Service.Contracts\\Service.Contracts.csproj": {
-                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Service.Contracts\\Service.Contracts.csproj"
+              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Service.Contracts\\Service.Contracts.csproj": {
+                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Service.Contracts\\Service.Contracts.csproj"
               },
-              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Service\\Service.csproj"
+              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Service\\Service.csproj"
               }
             }
           }
@@ -323,11 +303,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -376,14 +351,14 @@
         }
       }
     },
-    "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Repository\\Repository.csproj": {
+    "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Repository\\Repository.csproj",
+        "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\vanya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Repository\\obj\\",
+        "outputPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vanya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -400,11 +375,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Contracts\\Contracts.csproj"
+              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Contracts\\Contracts.csproj"
               },
-              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Entities\\Entities.csproj"
+              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Entities\\Entities.csproj"
               }
             }
           }
@@ -413,11 +388,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -457,14 +427,14 @@
         }
       }
     },
-    "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Service.Contracts\\Service.Contracts.csproj": {
+    "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Service.Contracts\\Service.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Service.Contracts\\Service.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Service.Contracts\\Service.Contracts.csproj",
         "projectName": "Service.Contracts",
-        "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Service.Contracts\\Service.Contracts.csproj",
+        "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Service.Contracts\\Service.Contracts.csproj",
         "packagesPath": "C:\\Users\\vanya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Service.Contracts\\obj\\",
+        "outputPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Service.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vanya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -481,11 +451,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Entities\\Entities.csproj"
+              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Shared\\Shared.csproj"
+              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Shared\\Shared.csproj"
               }
             }
           }
@@ -494,11 +464,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -524,14 +489,14 @@
         }
       }
     },
-    "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Service\\Service.csproj": {
+    "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Service\\Service.csproj",
+        "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\vanya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Service\\obj\\",
+        "outputPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vanya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -548,11 +513,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Contracts\\Contracts.csproj"
+              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Contracts\\Contracts.csproj"
               },
-              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Service.Contracts\\Service.Contracts.csproj": {
-                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Service.Contracts\\Service.Contracts.csproj"
+              "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Service.Contracts\\Service.Contracts.csproj": {
+                "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Service.Contracts\\Service.Contracts.csproj"
               }
             }
           }
@@ -561,11 +526,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -601,14 +561,14 @@
         }
       }
     },
-    "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Shared\\Shared.csproj": {
+    "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\vanya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vanya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -631,11 +591,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E545cXg00jB6uJRzEaabpidnjsULYvDVOl/+RzAOYWkIBG/jrv8QdAi0nGqoG0S91icheR7njZLkNw2vjfj1yw==",
+  "dgSpecHash": "tC9mXQZrJXd2oK9WXj7SLIPM21vlLsKLESmW1qYcwh9v1bTvpM1Hphnjr2TsQHfeH9C8dDHtg0RwXXKaR7RQuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\Om-Nom-Box\\OmNomBox.API\\OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj",
+  "projectFilePath": "C:\\Users\\vanya\\OneDrive\\Рабочий стол\\uni learning\\АПЗ\\git\\apz-pzpi-21-3-bashenko-ivan\\Task2\\apz-pzpi-21-3-bashenko-ivan-task2\\OmNomBox.API\\OmNomBox.API.Presentation\\OmNomBox.API.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vanya\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\vanya\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
